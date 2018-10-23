@@ -8,7 +8,8 @@ from final.rl import DDPG
 
 MAX_EPISODES = 900
 MAX_EP_STEPS = 200
-ON_TRAIN = True
+#ON_TRAIN = True #开启训练模式，会保存checkpoint；
+ON_TRAIN = False #开启使用模式，会出现动态的机械手环境来追踪你的鼠标位置；
 
 # set env
 env = ArmEnv()
